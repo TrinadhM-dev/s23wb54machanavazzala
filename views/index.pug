@@ -3,11 +3,10 @@ extends layout
 block content
   h1= title
   p I like coffee and Code <br>
-     -//a.btn(href='#') PRESS ME
      button(type="button" , class="btn btn-warning", onClick="reduce()") PRESS ME
 
      div(id="reduce" ) REDUCE THE VALUE
-
+     a(href='http://localhost:3000/deodorant') Link
      script.
       let count =20;
       let change = -1;
